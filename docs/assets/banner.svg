@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">中文文档表达</title>
+  <desc id="desc">米白色背景上的中文文档表达标题，右侧以文稿和连接线呈现连续展开的论述。</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#234f50" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="380" rx="20" fill="#f5f3ed"/>
+  <rect width="1280" height="380" rx="20" fill="url(#grid)"/>
+  <rect x="52" y="60" width="5" height="245" rx="2.5" fill="#b77948"/>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+    <text x="82" y="88" fill="#64756c" font-size="15" letter-spacing="4">RESEARCH PROSE · CHINESE</text>
+    <text x="78" y="179" fill="#193f40" font-size="66" font-weight="650" letter-spacing="2">中文文档表达</text>
+    <text x="82" y="230" fill="#53655f" font-size="25" letter-spacing="1">让文字自然，让论述连贯。</text>
+    <line x1="82" y1="268" x2="622" y2="268" stroke="#d9ded6"/>
+    <text x="82" y="302" fill="#64756c" font-size="16">自然措辞</text>
+    <circle cx="175" cy="296" r="2" fill="#b77948"/>
+    <text x="195" y="302" fill="#64756c" font-size="16">连贯论述</text>
+    <circle cx="288" cy="296" r="2" fill="#b77948"/>
+    <text x="308" y="302" fill="#64756c" font-size="16">准确保留原意</text>
+  </g>
+  <rect x="897" y="66" width="248" height="260" rx="13" fill="#e4e9e1" transform="rotate(6 1021 196)"/>
+  <rect x="862" y="52" width="248" height="260" rx="13" fill="#fffefa" stroke="#d6ddd4"/>
+  <rect x="888" y="82" width="31" height="5" rx="2.5" fill="#b77948"/>
+  <rect x="929" y="82" width="103" height="5" rx="2.5" fill="#b7c6be"/>
+  <g fill="#234f50">
+    <rect x="888" y="116" width="150" height="10" rx="3"/>
+    <rect x="888" y="136" width="185" height="6" rx="3" opacity=".30"/>
+    <rect x="888" y="150" width="165" height="6" rx="3" opacity=".30"/>
+    <rect x="888" y="183" width="130" height="10" rx="3"/>
+    <rect x="888" y="203" width="185" height="6" rx="3" opacity=".30"/>
+    <rect x="888" y="217" width="174" height="6" rx="3" opacity=".30"/>
+    <rect x="888" y="250" width="160" height="10" rx="3"/>
+    <rect x="888" y="270" width="144" height="6" rx="3" opacity=".30"/>
+  </g>
+  <path d="M845 120h-21v67h21m-21 0v67h21" fill="none" stroke="#b77948" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="824" cy="120" r="4" fill="#b77948"/>
+  <circle cx="824" cy="187" r="4" fill="#b77948"/>
+  <circle cx="824" cy="254" r="4" fill="#b77948"/>
+</svg>
