@@ -10,7 +10,7 @@
 
 <p>适用于公司与行业研究、策略备忘录、技术分析及其他中文说明材料。<br>Word · WPS · 飞书 · Markdown · 聊天中起草的文档正文</p>
 
-**[改写对比](#examples) · [安装使用](#install) · [与 Caveman 的区别](#comparison) · [写作规则](./SKILL.md)**
+**[改写对比](#examples) · [安装使用](#install) · [写作规则](./SKILL.md)**
 
 </div>
 
@@ -199,22 +199,6 @@ git -C "$HOME/.agents/skills/research-prose-zh" pull --ff-only
 停止默认使用时，删去全局指令中对应的“中文文档写作默认规则”段落，并重新开任务。若要卸载，再移除技能目录；只删除全局规则后，Skill 仍可能根据文档任务自动匹配或被明确调用。
 
 </details>
-
-<a id="comparison"></a>
-
-## 与 Caveman 的区别
-
-[Caveman](https://github.com/JuliusBrussee/caveman) 的 README 将目标、示例和安装入口放在显眼位置，本页参考了这种组织方式。两者处理的问题不同：
-
-| 维度 | Caveman | 中文文档表达 |
-| --- | --- | --- |
-| 主要目标 | 减少 Agent 读入和输出的 token，并提供相关效率工具 | 改善中文文档的措辞、句法和段落组织 |
-| 表达取向 | 强调简短直接，提供不同压缩程度的输出模式 | 按论述需要安排长短，保留自然搭配与解释关系 |
-| 产品形式 | 当前 README 介绍了写作 Skill、CLI、输入压缩、模型路由等功能 | 指令与示例组成的 Skill，无额外运行依赖 |
-| 默认应用范围 | 面向 Agent 交互及编程工作流 | 文档起草、改写与润色，日常聊天不默认采用 |
-| 效果展示 | 项目提供 token 与成本测试及其方法说明 | 当前提供编辑示例和用户反馈，尚无跨模型量化结果 |
-
-这里的比较依据 [Caveman README](https://github.com/JuliusBrussee/caveman/blob/main/README.md) 的项目介绍。上面的改写示例用于说明编辑取舍，后续会结合实际任务继续完善。
 
 ## 适用于其他 Agent 吗？
 
