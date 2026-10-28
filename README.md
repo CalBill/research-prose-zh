@@ -6,7 +6,7 @@
 
 **让 AI 把文档写得自然、清楚，保留值得读的内容。**
 
-<p><a href="./SKILL.md"><img src="https://img.shields.io/badge/Agent_Skill-v0.3.1-234F50?style=flat-square" alt="Agent Skill v0.3.1"></a> <a href="#install"><img src="https://img.shields.io/badge/安装-Codex-234F50?style=flat-square" alt="安装到 Codex"></a> <a href="./references/examples.md"><img src="https://img.shields.io/badge/内容-规则与示例-B77948?style=flat-square" alt="规则与示例"></a> <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-64756C?style=flat-square" alt="MIT License"></a></p>
+<p><a href="./SKILL.md"><img src="https://img.shields.io/badge/Agent_Skill-v0.4.0-234F50?style=flat-square" alt="Agent Skill v0.4.0"></a> <a href="#install"><img src="https://img.shields.io/badge/安装-Codex-234F50?style=flat-square" alt="安装到 Codex"></a> <a href="./references/examples.md"><img src="https://img.shields.io/badge/内容-规则与示例-B77948?style=flat-square" alt="规则与示例"></a> <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-64756C?style=flat-square" alt="MIT License"></a></p>
 
 <p>适用于公司与行业研究、策略备忘录、技术分析及其他中文说明材料。<br>Word · WPS · 飞书 · Markdown · 聊天中起草的文档正文</p>
 
@@ -77,7 +77,7 @@
 
 </details>
 
-更多说明见 [改写示例](./references/examples.md)。
+更多说明见 [局部改写示例](./references/examples.md)和[完整正文示例](./references/author-examples.md)。
 
 <a id="install"></a>
 
@@ -165,7 +165,7 @@ git clone https://github.com/CalBill/research-prose-zh.git "$HOME\.agents\skills
 改写后，请列出本次实际读取的写作规则文件路径和版本。
 ```
 
-检查它是否实际读取了 `research-prose-zh/SKILL.md`，版本是否为 `0.3.1`。既要看文件读取记录，也要看修改后的文字是否更清楚。若技能未出现或全局规则未加载，重启 Codex 后重新开任务。
+检查它是否实际读取了 `research-prose-zh/SKILL.md`，版本是否为 `0.4.0`。既要看文件读取记录，也要看修改后的文字是否更清楚。若技能未出现或全局规则未加载，重启 Codex 后重新开任务。
 
 ### 日常怎么用？
 
@@ -213,13 +213,14 @@ research-prose-zh/
 ├── SKILL.md                  主规则、适用范围和编辑要求
 ├── agents/openai.yaml        Codex 显示名称与默认提示
 ├── references/
-│   ├── examples.md           改写示例与编辑判断
+│   ├── author-examples.md    完整正文与信息组织示例
+│   ├── examples.md           局部改写示例与编辑判断
 │   └── calibration.md        样本校准和规则更新方法
 ├── docs/assets/banner.svg    README 横幅
 └── LICENSE                   MIT 许可证
 ```
 
-当前版本 **v0.3.1**，由范文观察、实际改稿和用户反馈整理而成。本次保留原有核心规则，补充删去重复解释、展开条件与断句，以及自然措辞与准确术语的虚构示例。Skill 在任务中提供规则与示例，未训练或微调模型。文件生成、排版和平台操作由相应工具完成。
+当前版本 **v0.4.0**，由范文观察、实际改稿和用户反馈整理而成。本次精简主规则，增加科研流程与出版经营的完整虚构示例，重点处理信息顺序、重复解释和自然收束，同时保留事实、归因、实质条件及自然搭配要求。Skill 在任务中提供规则与示例，未训练或微调模型。文件生成、排版和平台操作由相应工具完成。
 
 欢迎通过 [Issue](https://github.com/CalBill/research-prose-zh/issues) 提交具体原句、修改结果及读感反馈。更新优先解决实际出现的问题，保留原本通顺的表达，不把个别问题词扩大成全局禁词。
 
